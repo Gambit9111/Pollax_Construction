@@ -1,0 +1,33 @@
+.navbar-side-menu-button .line {
+    transition: 
+      y 300ms ease-in 300ms,
+      rotate 300ms ease-in,
+      opacity 0ms 300ms;
+    ;
+    transform-origin: center;
+  }
+  
+  .navbar-side-menu-button[aria-expanded="true"] .line {
+    transition: 
+      y 300ms ease-in,
+      rotate 300ms ease-in 300ms,
+      opacity 0ms 300ms;
+    ;
+  }
+  
+  
+  .navbar-side-menu-button[aria-expanded="true"] :is(.top, .bottom) {
+    y: 45;
+  }
+  
+  .navbar-side-menu-button[aria-expanded="true"] .top {
+    rotate: 45deg;
+  }
+  
+  .navbar-side-menu-button[aria-expanded="true"] .middle {
+    opacity: 0;
+  }
+  
+  .navbar-side-menu-button[aria-expanded="true"] .bottom {
+    rotate: -45deg;
+  }

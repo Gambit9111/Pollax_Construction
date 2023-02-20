@@ -1,0 +1,14 @@
+.navbar-side-menu
+{
+    width: 0%;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.navbar-side-menu.active
+{
+    width: 100%;
+    opacity: 1;
+    transition-delay: 0.5s;
+}
