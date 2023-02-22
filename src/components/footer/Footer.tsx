@@ -73,7 +73,7 @@ export default function Footer({}: Props) {
         </div>
       </footer>
       {/* desktop */}
-      <footer className="fixed bottom-0 hidden h-10 w-full bg-my-orange xl:flex wide:h-12">
+      <footer className="hidden h-10 w-full bg-my-orange xl:flex wide:h-12">
         <div className="relative flex h-full w-full items-end justify-between">
           <span className="absolute top-[0.4rem] h-[1px] w-9/12 bg-black" />
           <p className="px-6 pb-1 tracking-wider wide:text-lg">

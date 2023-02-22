@@ -7,9 +7,10 @@ export default function Button({}: Props) {
     <>
       <Link
         href="/"
-        className="z-10 mx-auto flex items-center gap-2 font-medium italic"
+        className="z-10 mx-auto flex items-center gap-2 font-medium italic lg:text-lg wide:text-xl"
       >
         <svg
+          className="lg:h-20 lg:w-20 wide:h-24 wide:w-24"
           width="51"
           height="38"
           viewBox="0 0 51 38"
