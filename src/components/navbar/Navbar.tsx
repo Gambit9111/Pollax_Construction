@@ -18,10 +18,10 @@ export default function Navbar({}: Props) {
     <>
       <NavbarSideMenu sideMenuRef={sideMenuRef} />
       {/* mobile */}
-      <header className="z-10 flex h-20 w-full border-b border-my-black bg-my-white font-openSans text-my-black xl:hidden">
+      <header className="z-10 flex h-20 w-full border-b border-my-black bg-my-white text-my-black xl:hidden">
         {/* Logo */}
         <div className="flex w-1/2 items-center justify-center border-r border-my-black">
-          <h2 className="text-xl font-bold uppercase tracking-tight">Logo</h2>
+          <h2 className="text-xl font-bold uppercase tracking-tight">Pollax</h2>
         </div>
         {/* Menu */}
         <nav className="flex w-1/2 items-center justify-center gap-6">
@@ -64,7 +64,7 @@ export default function Navbar({}: Props) {
       {/* Desktop */}
       <header className="hidden h-24 border-b border-black bg-my-white xl:flex wide:h-28">
         <div className="flex w-1/4 items-center justify-start border-r border-black px-8">
-          <h2 className="text-2xl font-bold uppercase wide:text-3xl">Logo</h2>
+          <h2 className="text-2xl font-bold uppercase wide:text-3xl">Pollax</h2>
         </div>
         <nav className="flex w-2/4 items-center justify-start gap-12 border-r border-black px-8 font-medium wide:text-lg">
           <h3>About Us</h3>

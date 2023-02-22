@@ -18,7 +18,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        openSans: ["var(--font-open-sans)", ...fontFamily.sans],
+        alexandria: ["var(--font-alexandria)", ...fontFamily.sans],
       },
       screens: {
         wide: "2560px",
