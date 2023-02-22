@@ -9,7 +9,9 @@ const Home: NextPage = () => {
     <main className="h-full w-full">
       <Hero />
       <ImageSlider />
-      <Cta />
+      <div className="h-full w-full pr-4">
+        <Cta />
+      </div>
     </main>
   );
 };

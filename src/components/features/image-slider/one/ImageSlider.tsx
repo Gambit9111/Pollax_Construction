@@ -21,7 +21,7 @@ export default function ImageSlider({}: Props) {
   return (
     <motion.div
       ref={carousel}
-      className="features-image-slider-two"
+      className="features-image-slider-two mx-auto max-w-lg"
       whileTap={{ cursor: "grabbing" }}
     >
       <motion.div

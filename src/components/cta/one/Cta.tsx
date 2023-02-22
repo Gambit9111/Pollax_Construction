@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Component({}: Props) {
   return (
-    <div className="relative mt-4 flex h-40 w-[97vw] flex-col border-r border-black bg-my-skin pl-4">
+    <div className="relative mx-auto mt-4 flex h-40 max-w-lg flex-col border-r border-black bg-my-skin pl-4">
       <span className="mb-7 mt-3 flex h-6 items-center gap-3">
         <Link href="/" className="text-xs uppercase underline">
           Find out more about our brand story
